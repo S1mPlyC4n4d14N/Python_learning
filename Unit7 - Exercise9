@@ -1,0 +1,17 @@
+### Unit7 Exercise 9
+### 1/19/2022
+### Kole McDougall
+### Write a function slope that calculates the slop of the line that connects 2 points
+
+
+def slope(x1, y1, x2, y2):
+  slopep1 = (y2 - y1)
+  slopep2 = (x2 - x1)
+  if (slopep2 == 0):
+    print ("undefined")
+  else:
+    print (round((slopep1 / slopep2),2))
+
+slope (6,3,-1,-2)
+slope (6,3,4,3)
+slope (6,3,6,-4)
